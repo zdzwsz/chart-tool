@@ -9,3 +9,7 @@
 .pyc
 
 static/
+
+fchart.egg-info
+
+__pycache__
