@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: fchart
+Version: 0.1
+Summary: Python package fchart
+Author: zhangdazhi
+Author-email: zdzwsz@126.com
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Requires-Dist: seaborn
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: fastapi[all]>=0.104.0
+Requires-Dist: uvicorn[standard]>=0.23.2
+Requires-Dist: docker>=7.0.0
+Requires-Dist: pydantic!=2.6.0,<3,>=1.10
+
+export OPENSSL_CONF=/etc/ssl

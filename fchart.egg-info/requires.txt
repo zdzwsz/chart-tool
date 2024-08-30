@@ -1,0 +1,8 @@
+seaborn
+matplotlib
+numpy
+pandas
+fastapi[all]>=0.104.0
+uvicorn[standard]>=0.23.2
+docker>=7.0.0
+pydantic!=2.6.0,<3,>=1.10

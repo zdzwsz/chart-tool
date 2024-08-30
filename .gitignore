@@ -1,0 +1,11 @@
+
+# Project
+.vscode
+
+# Log files
+*.log
+
+.env
+.pyc
+
+static/
