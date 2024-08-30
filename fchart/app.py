@@ -10,7 +10,7 @@ app = FastAPI()
 
 chart = Chart("http://127.0.0.1:8081")
 
-@app.post("/pic")
+@app.post("/pie")
 async def pie(data:DataModel):
     return {"url",chart.pie(data)}
 
